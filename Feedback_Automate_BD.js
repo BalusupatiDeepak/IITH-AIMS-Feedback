@@ -2,12 +2,12 @@
     @author : Balusupati Deepak
     @namespace : aims.iith.ac.in
     @description : to automatically fill the feedback form 
-    @other_details : This script selects "Agree(A)" checkbox for all questions and remarks will be = "Excellent" 
+    @other_details : This script selects "Agree(A)" checkbox for all questions and remarks will be = "good" 
 */
 console.clear();
 function automate_feedback()
 {
-    document.getElementById("fbRemarks").value = "Excellent"
+    document.getElementById("fbRemarks").value = "good"
 
     total_elements = 20;
     var txt = "elementValue_";
